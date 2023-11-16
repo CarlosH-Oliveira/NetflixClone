@@ -1,0 +1,65 @@
+.movie-container{
+    padding: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.movie-container:hover .movie-row-left, 
+.movie-container:hover .movie-row-right{
+   opacity: 0.6;
+}
+
+.movie-row-block{
+    overflow-x: hidden;
+}
+
+.movie-row{
+    transition: all ease 0.5s;
+}
+
+.movie-item{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.movie-item img{
+    width: 200px;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.movie-item img:hover{
+    transform: scale(1);
+}
+
+.movie-row-left, .movie-row-right{
+    position: absolute;
+    overflow: hidden;
+    width: 70px;
+    height: 28%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.movie-row-left svg, .movie-row-right svg{
+    margin-top: 6em;
+    width: 70px;
+    height: 28%;
+}
+
+.movie-row-left svg{
+    padding-right: 0.9em;
+}
+
+.movie-row-right svg{
+    padding-left: 1em;
+}
+
+.movie-row-left{
+    left: 0;
+}
+
+.movie-row-right{
+    right: 0;
+}

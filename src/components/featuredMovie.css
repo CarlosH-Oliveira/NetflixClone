@@ -1,0 +1,96 @@
+.featured{
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.featured-container{
+    padding-top: 4em;
+    padding-left: 4em;
+}
+
+.featured-vertical{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, rgb(15, 15, 15) 5%, transparent 70%);
+}
+
+.featured-horizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, rgb(15, 15, 15) 35%, transparent 70%);
+}
+
+.featured-name{
+    font-size:4em;
+    font-weight: bold;
+    margin-top: 1.7em;
+}
+
+.featured-info{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.featured-points, .featured-seasons, .featured-year{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.featured-points{
+    color: chartreuse;
+}
+
+.featured-overview{
+    font-size: 1.3em;
+    color: #999;
+    width: 40%;
+}
+
+.watch-featured, .add-to-list-featured{
+    display: inline-block;
+    padding: 1em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    border-radius: 0.5em;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 1.5em;
+    margin-right: 1em;
+}
+
+.watch-featured:hover, .add-to-list-featured:hover{
+    opacity: 0.7;
+}
+
+.add-to-list-featured:hover{
+    color: white;
+}
+
+.watch-featured:hover{
+    color: black;
+}
+
+.watch-featured{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.featured-watch-text{
+    margin-left: 0.5em;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.add-to-list-featured{
+    background-color: #333;
+    color: white; 
+}
+
+.featured-genres{
+    font-size: 1.3em;
+    margin-top: 1.5em;
+}
+
